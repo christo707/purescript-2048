@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>PureScript Test</title>
+<style>
+body {
+    background-color: #bcffd9;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button3 {
+    background-color: #f44336;
+    color: black;
+    border: 2px solid #f44336;
+}
+
+.button3:hover {
+    background-color: white;
+    color: #f44336;
+}
+
+</style>
+</head>
+<body bgcolor>
+<center>
+<h2>PureScript 2048 Game </h2>
+<canvas id="canvas" width="400" height="400" ></canvas>
+</center>
+<script type="text/javascript" src="dist/Main.js"></script>
+<footer>
+  <h3>Standard 2048 Rules. Play By arrow keys.</h3>
+  <button  class = "button button3"  onClick="window.location.reload()"> Retry </button>
+  <h2>Game By : CMR</h2>
+</footer>
+</body>
+
+</html>
